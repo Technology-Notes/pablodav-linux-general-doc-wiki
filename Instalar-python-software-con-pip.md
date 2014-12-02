@@ -4,7 +4,7 @@ Para tener soporte pip hay que instalar el paquete python: `sudo apt-get install
 
 Luego es normal que un archivo de requerimientos del software tenga toda la info para instalar este, se pueden instalar estos normalmente usando ese archivo con `pip install -r requirements.txt` (archivo del software)
 
-También recomiendo tener instalado la posibilidad de usar virtual environment de python, lo que nos permite usar un ambiente python virtual para instalar todo lo que precisemos usando un directorio que se usa como ambiente python, esto permite una gran ventaja porque se pueden instalar versiones diferentes de software en ambientes independientes de python.  `sudo apt-get install python-virtualenv`
+También recomiendo tener instalado la posibilidad de usar [virtualenv](https://virtualenv.pypa.io/en/latest/), lo que nos permite usar un ambiente python virtual para instalar todo lo que precisemos usando un directorio que se usa como ambiente python, esto permite una gran ventaja porque se pueden instalar versiones diferentes de software en ambientes independientes de python.  `sudo apt-get install python-virtualenv`
 Luego crear directorio mkdir directorio
 Y usar este: `virtualenv directorio` (Ya estará usando este directorio para instalar software python)
 
