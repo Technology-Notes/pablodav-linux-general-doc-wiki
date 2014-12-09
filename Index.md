@@ -12,5 +12,5 @@ It will help to import csv file to nagios config, like your inventory to nagios:
 ### Network Admin utils
 [Netowrk admin tools page] (https://github.com/pablodav/linux-general-doc-wiki/wiki/Net-admin-utils)
 
-##Storage
+# Storage tools
 [Storage software page](https://github.com/pablodav/linux-general-doc-wiki/wiki/Storage-software)
