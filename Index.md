@@ -8,3 +8,6 @@ It will help to find what's here.
 ### Nagios Import
 It will help to import csv file to nagios config, like your inventory to nagios: 
 [Nagios Import](https://github.com/pablodav/linux-general-doc-wiki/wiki/nagios-import)
+
+### Network Admin utils
+[Netowrk admin tools page] (https://github.com/pablodav/linux-general-doc-wiki/wiki/Net-admin-utils)
