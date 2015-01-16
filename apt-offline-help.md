@@ -26,6 +26,8 @@ Ahora sólo hay que copiar el archivo “offline.zip” al ordenador sin conexi�
 
 ##En la máquina donde se quiere instalar offline, instalar el software:
 `sudo apt-offline install offline.zip`
+
 Finalmente se ejecuta:
 `sudo apt-get install sqliteman`
+
 El programa quedará instalado en la máquina sin conexión a Internet.
