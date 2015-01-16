@@ -17,3 +17,9 @@ It will help to import csv file to nagios config, like your inventory to nagios:
 
 # Project manager software
 [Project management page](https://github.com/pablodav/linux-general-doc-wiki/wiki/Project-manager-software)
+
+# Package management
+
+## Ubuntu/Debian
+### apt-offline
+[Apt-offline-help] (https://github.com/pablodav/linux-general-doc-wiki/wiki/apt-offline-help)
