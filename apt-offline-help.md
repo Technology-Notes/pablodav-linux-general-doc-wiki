@@ -18,7 +18,8 @@ Imaginemos que se desea instalar el programa “sqliteman”, por poner un ejemp
 
 ##En máquina donde se quiere instalar offline generar archivo con lo que se precisa: 
 
- `sudo apt-offline set apt.sig --update --upgrade --install-packages sqliteman`
+ `sudo apt-offline set apt.sig --update --upgrade --install-packages sqliteman` 
+
 Se generará el archivo “apt.sig”. Este archivo se debe copiar al ordenador con conexión a Internet y ejecutar:
 
 ##En computadora con acceso a repos (internet): 
