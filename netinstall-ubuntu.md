@@ -62,13 +62,13 @@ Directorio netinstall-ubuntu
 
 
 ## Otros recursos utilizados:
-#Documentation: https://help.ubuntu.com/community/Installation/Netboot 
-#https://wiki.debian.org/DebianInstaller/Preseed
-#https://www.debian.org/releases/stable/i386/ch04s06.html.en
-#http://www.debian.org/releases/stable/i386/apb.html
-#
-#Used doc: https://help.ubuntu.com/community/Installation/LocalNet
-#https://help.ubuntu.com/stable/installation-guide/en.i386/ch04s05.html
-#Section: Basic: Hands-On Interactive Network Server Edition Install 
-#dhcpd with tftp-hpa. and Advanced: Hands-Off, Preseeded Network Server Install
+**Documentation:** https://help.ubuntu.com/community/Installation/Netboot 
+https://wiki.debian.org/DebianInstaller/Preseed
+https://www.debian.org/releases/stable/i386/ch04s06.html.en
+http://www.debian.org/releases/stable/i386/apb.html
+
+**Used doc:** https://help.ubuntu.com/community/Installation/LocalNet
+https://help.ubuntu.com/stable/installation-guide/en.i386/ch04s05.html
+Section: Basic: Hands-On Interactive Network Server Edition Install 
+dhcpd with tftp-hpa. and Advanced: Hands-Off, Preseeded Network Server Install
  
