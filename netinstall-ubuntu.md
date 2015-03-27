@@ -5,7 +5,7 @@ Estoy preparando unos scripts que permiten configurar rápidamente un ubuntu ins
 Esta es una versión funcional, probada y pretendo que sirva para los FLISOL como para cualquier uso que se quiera dar para tener un servidor de instalaciones de Linux. 
 Creé esto porque ví mucha complejidad en la primer experiencia que tuve para poner a funcionar un servidor de instalación por red, son muchos pasos a configurar y los manuales por lo general siempre dan ayuda a hacerlo de varias maneras, lo cual puede o no confundir un poco a quién lo quiera hacer. 
 
-De momento solo configuré 2 preseed para xubuntu y kubuntu, tanto para 32 como 64 bit, ambos instalan mucho software preseleccionado en el preseed, pero también carga un script con mucho más software y configuraciones customizadas y opciones que se pueden adaptar, todo sirve como ejemplo y cualquiera que entienda un poco de bash va a poder adaptarlo para muchos usos. 
+De momento solo configuré 2 preseed para **xubuntu y kubuntu trusty**, tanto para 32 como 64 bit, ambos instalan mucho software preseleccionado en el preseed, pero también carga un script con mucho más software y configuraciones customizadas y opciones que se pueden adaptar, todo sirve como ejemplo y cualquiera que entienda un poco de bash va a poder adaptarlo para muchos usos. Tengo pensado **agregar otros escritorios como ubuntu o lubuntu, etc y opciones para vivid**
 
 Inclusive se podría utilizar para cargar otras distros linux por red, eso no es impedimento. 
 
