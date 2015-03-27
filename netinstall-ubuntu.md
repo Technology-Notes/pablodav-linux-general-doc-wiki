@@ -24,7 +24,7 @@ Algunos de los pasos que realiza:
 
 **Sobreescribe Todos los archivos de configuración por el momento, los repalda temporalmente en /tmp**
 **Tenga en cuenta que si cambia la ip, también tendra que cambiar el script y preseeds en `html/netinstall`, el archivo `/var/lib/tftpboot/ubuntu-installer/i386/boot-screens/txt.cfg` para el menú de booteo.**
-**Se precisarán por lo menos 100Gb en /home/UbuntuMirror 
+Se precisarán por lo menos 100Gb en /home/UbuntuMirror** 
 
 # Instalación
 Requisitos: Tener configurada una tarjeta de red con ip 192.168.3.10 por lo menos después de instalar o con una red secundaria. 
