@@ -1,7 +1,7 @@
 It will help to find what's here.
 # Python
 ## Install python software help
-[Python software installation](/Instalar-python-software-con-pip)
+[Python software installation](Instalar-python-software-con-pip)
 
 # Monitoring tools and scripts
 
