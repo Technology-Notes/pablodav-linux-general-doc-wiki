@@ -12,7 +12,7 @@ Inclusive se podría utilizar para cargar otras distros linux por red, eso no es
 Espero que sirva mucho en varios casos, cualquier comentario es bienvenido. pablodav at gmail dot com. 
 También aprovecho para invitar a cualquier persona que quiera colaborar en el mismo repositorio de git, de momento está en un repo personal que utilizo para meter muchos script linux, pero a futuro se puede mover solo esto a un proyecto aparte si a alguien le interesa. 
 
-Algunos de los pasos que realiza: 
+**Algunos de los pasos que realiza en instalador:** 
 * Configura dhcp con ip 192.168.3.0/24 (se puede modificar en `/etc/dhcp/dhcpd.conf`)
 * Instala dependencias de paquetes: isc-dhcp-server debmirror tftpd-hpa git nfs-kernel-server nginx
 * Copia los archivos necesarios en `/var/lib/tftpboot/` para poder hacer el booteo 
@@ -20,12 +20,16 @@ Algunos de los pasos que realiza:
 * Configura un script para mirrorbuild en `/usr/local/bin/mirrorbuild.sh` 
 * Configura una tarea cron para ejecutarse a las 00:00 en `/etc/cron.d/mirrorbuild
 * Crea un enlace simbólico para poder usar el servidor como mirror `ln -s /home/UbuntuMirror/ /usr/share/nginx/html/ubuntu` 
+
+
+**Algunas características extras además de toda la instalación automatizada con muchos paquetes en los script**
 * Activa zram para mejorar el uso de memoria ram en los equipos, de momento lo activa siempre pero a futuro se podrá mejorar para solo usarlo en casos de menos de xGb de ram disponibles.
 * Una vez que termina usa oem-config y deja listo para que en el próximo reinicio se configure el usuario su región, idioma, etc.  
 
-**Sobreescribe Todos los archivos de configuración por el momento, los repalda temporalmente en /tmp**
-**Tenga en cuenta que si cambia la ip, también tendra que cambiar el script y preseeds en `html/netinstall`, el archivo `/var/lib/tftpboot/ubuntu-installer/i386/boot-screens/txt.cfg` para el menú de booteo.
-**Se precisarán por lo menos 100Gb en /home/UbuntuMirror** 
+
+**Sobreescribe Todos los archivos de configuración por el momento, los repalda temporalmente en /tmp
+Tenga en cuenta que si cambia la ip, también tendra que cambiar el script y preseeds en `html/netinstall`, el archivo `/var/lib/tftpboot/ubuntu-installer/i386/boot-screens/txt.cfg` para el menú de booteo.
+Se precisarán por lo menos 100Gb en /home/UbuntuMirror** 
 
 # Instalación
 Requisitos: Tener configurada una tarjeta de red con ip 192.168.3.10 por lo menos después de instalar o con una red secundaria. 
