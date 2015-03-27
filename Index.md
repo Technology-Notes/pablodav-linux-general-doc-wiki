@@ -7,19 +7,23 @@ It will help to find what's here.
 
 ### Nagios Import
 It will help to import csv file to nagios config, like your inventory to nagios: 
-[Nagios Import](https://github.com/pablodav/linux-general-doc-wiki/wiki/nagios-import)
+[Nagios Import](nagios-import)
 
 ### Network Admin utils
-[Netowrk admin tools page] (https://github.com/pablodav/linux-general-doc-wiki/wiki/Net-admin-utils)
+[Netowrk admin tools page] (Net-admin-utils)
 
 # Storage tools
-[Storage software page](https://github.com/pablodav/linux-general-doc-wiki/wiki/Storage-software)
+[Storage software page](Storage-software)
 
 # Project manager software
-[Project management page](https://github.com/pablodav/linux-general-doc-wiki/wiki/Project-manager-software)
+[Project management page](Project-manager-software)
 
 # Package management
 
 ## Ubuntu/Debian
 ### apt-offline
-[Apt-offline-help] (https://github.com/pablodav/linux-general-doc-wiki/wiki/apt-offline-help)
+[Apt-offline-help] (apt-offline-help)
+
+# Personal projects
+### Netinstall ubuntu
+[netinstall-ubuntu] (netinstall-ubuntu)
