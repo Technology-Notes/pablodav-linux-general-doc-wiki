@@ -20,7 +20,8 @@ Algunos de los pasos que realiza:
 * Configura un script para mirrorbuild en `/usr/local/bin/mirrorbuild.sh` 
 * Configura una tarea cron para ejecutarse a las 00:00 en `/etc/cron.d/mirrorbuild
 * Crea un enlace simbólico para poder usar el servidor como mirror `ln -s /home/UbuntuMirror/ /usr/share/nginx/html/ubuntu` 
-* Activa zram para mejorar el uso de memoria ram en los equipos, de momento lo activa siempre pero a futuro se podrá mejorar para solo usarlo en casos de menos de xGb de ram disponibles. 
+* Activa zram para mejorar el uso de memoria ram en los equipos, de momento lo activa siempre pero a futuro se podrá mejorar para solo usarlo en casos de menos de xGb de ram disponibles.
+* Una vez que termina usa oem-config y deja listo para que en el próximo reinicio se configure el usuario su región, idioma, etc.  
 
 **Sobreescribe Todos los archivos de configuración por el momento, los repalda temporalmente en /tmp**
 **Tenga en cuenta que si cambia la ip, también tendra que cambiar el script y preseeds en `html/netinstall`, el archivo `/var/lib/tftpboot/ubuntu-installer/i386/boot-screens/txt.cfg` para el menú de booteo.
