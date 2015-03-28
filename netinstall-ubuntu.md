@@ -65,6 +65,9 @@ Recomiendo el uso y testing con virt-manager, a mi me funcionó muy bien usando 
 Pueden clonarlo desde https://github.com/pablodav/linux-scripts 
 Directorio netinstall-ubuntu 
 
+Issues: 
+Encontré algún error a bajo nivel y que los repos no funcionaban como esperaba, por eso abrí un milestone donde se pueden reportar issues por estos scripts: 
+https://github.com/pablodav/linux-scripts/milestones/netinstall%20v1 
 
 
 
