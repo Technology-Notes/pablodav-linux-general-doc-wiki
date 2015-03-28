@@ -54,7 +54,8 @@ Y y ejecutarlo
 
 Recomiendo el uso y testing con virt-manager, a mi me funcionó muy bien usando una red virtual ruteada para varias máquinas virtuales también. 
 
-**Usar monitor VNC** hasta que esté arreglado esto (cambiaré estos comentarios)
+* **Usar monitor VNC** hasta que esté arreglado esto (cambiaré estos comentarios)
+ * De momento tendrá que instalar ` sudo apt-get install xserver-xspice xserver-xorg-video-qxl ` a mano antes de cambiar a monitor spice.
 
 ![netinstall-screenshot](images/netinstall-test1-kubuntu_and_xubuntu_install.png)
 
