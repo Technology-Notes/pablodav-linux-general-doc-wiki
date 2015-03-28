@@ -54,6 +54,8 @@ Y y ejecutarlo
 
 Recomiendo el uso y testing con virt-manager, a mi me funcionó muy bien usando una red virtual ruteada para varias máquinas virtuales también. 
 
+**Usar monitor VNC** hasta que esté arreglado esto (cambiaré estos comentarios)
+
 ![netinstall-screenshot](images/netinstall-test1-kubuntu_and_xubuntu_install.png)
 
 
