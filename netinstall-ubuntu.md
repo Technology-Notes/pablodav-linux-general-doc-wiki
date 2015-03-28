@@ -18,6 +18,8 @@ También aprovecho para invitar a cualquier persona que quiera colaborar en el m
 * Copia los archivos necesarios en `/var/lib/tftpboot/` para poder hacer el booteo 
 * Configura nginx para poder descargar los archivos y copia archivos `html/netinstall` en `/usr/share/nginx/html`
 * Configura un script para mirrorbuild en `/usr/local/bin/mirrorbuild.sh` 
+ * Las instalaciones se podrán hacer offline, por lo que es útil para aislar la red que se usa para instalar
+ * Luego se podrá instalar con y sin el repo local activado. 
 * Configura una tarea cron para ejecutarse a las 00:00 en `/etc/cron.d/mirrorbuild
 * Crea un enlace simbólico para poder usar el servidor como mirror `ln -s /home/UbuntuMirror/ /usr/share/nginx/html/ubuntu` 
 
