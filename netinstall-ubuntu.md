@@ -26,7 +26,8 @@ También aprovecho para invitar a cualquier persona que quiera colaborar en el m
 
 **Algunas características extras además de toda la instalación automatizada con muchos paquetes en los script**
 * Activa zram para mejorar el uso de memoria ram en los equipos, de momento lo activa siempre pero a futuro se podrá mejorar para solo usarlo en casos de menos de xGb de ram disponibles.
-* Una vez que termina usa oem-config y deja listo para que en el próximo reinicio se configure el usuario su región, idioma, etc.  
+* Una vez que termina usa oem-config y deja listo para que en el próximo reinicio se configure el usuario su región, idioma, etc. 
+* Activa usuario por defecto y password (ver archivo .seed) 
 
 
 **Sobreescribe Todos los archivos de configuración por el momento, los repalda temporalmente en /tmp
