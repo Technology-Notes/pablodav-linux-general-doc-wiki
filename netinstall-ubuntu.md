@@ -50,6 +50,17 @@ Y y ejecutarlo
 
 > ./net_installer.sh 
 
+Correr mirrorbuild.sh una vez para que sincronize el repositorio en /home/UbuntuMirror
+
+# Uso de instalación por red
+
+**La instalación no precisa internet ya que usa el repositorio local**
+
+1 con el servidor conectado a una lan (switch), bootear por red las computadoras que se desean instalar (Normalmente tecla F12). 
+ 1.1 También se puede usar un cd de netboot si no tiene soporte la tarjeta de red. 
+2 Elegir la versión a instalar y seguir los pasos. 
+3 Una vez que reinició y pidió los datos del usuario (oeminstall), pueden quitar en los  orígenes de software el repo local. 
+
 # Uso con virt-manager
 
 Recomiendo el uso y testing con virt-manager, a mi me funcionó muy bien usando una red virtual ruteada para varias máquinas virtuales también. 
@@ -84,6 +95,7 @@ https://github.com/pablodav/linux-scripts/milestones/netinstall%20v1
 https://wiki.debian.org/DebianInstaller/Preseed
 https://www.debian.org/releases/stable/i386/ch04s06.html.en
 http://www.debian.org/releases/stable/i386/apb.html
+https://wiki.debian.org/PXEBootInstall
 
 **Used doc:** https://help.ubuntu.com/community/Installation/LocalNet
 https://help.ubuntu.com/stable/installation-guide/en.i386/ch04s05.html
