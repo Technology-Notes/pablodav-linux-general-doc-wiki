@@ -56,10 +56,10 @@ Correr mirrorbuild.sh una vez para que sincronize el repositorio en /home/Ubuntu
 
 **La instalación no precisa internet ya que usa el repositorio local**
 
-1 con el servidor conectado a una lan (switch), bootear por red las computadoras que se desean instalar (Normalmente tecla F12). 
- 1.1 También se puede usar un [cd de netboot] (http://ipxe.org/start) si no tiene soporte la tarjeta de red. 
-2 Elegir la versión a instalar y seguir los pasos. 
-3 Una vez que reinició y pidió los datos del usuario (oeminstall), pueden quitar en los  orígenes de software el repo local. 
+1. con el servidor conectado a una lan (switch), bootear por red las computadoras que se desean instalar (Normalmente tecla F12). 
+ 1.1. También se puede usar un [cd de netboot] (http://ipxe.org/start) si no tiene soporte la tarjeta de red. 
+2. Elegir la versión a instalar y seguir los pasos. 
+3. Una vez que reinició y pidió los datos del usuario (oeminstall), pueden quitar en los  orígenes de software el repo local. 
 
 # Uso con virt-manager
 
