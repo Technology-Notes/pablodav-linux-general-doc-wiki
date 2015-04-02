@@ -6,7 +6,7 @@ La configuración estándard está en:
 
 # (Se agregan también ppas y mirror a otros servidores externos)
 Ejemplo: 
-`
+```shell
 ############# config ##################
 #
 # set base_path    /var/spool/apt-mirror
@@ -34,11 +34,11 @@ deb http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe m
 #deb-src http://archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
 #deb-src http://archive.ubuntu.com/ubuntu trusty-proposed main restricted universe multiverse
 #deb-src http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
-`
+```
  
 ### También se puede especificar la arquitectura: 
 
-`
+```shell
 deb [arch=amd64,i386] http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
  
 #PPa from: https://launchpad.net/~hugo-vanduijn/+archive/ubuntu/burp-latest
@@ -58,7 +58,7 @@ deb http://apt.puppetlabs.com/ trusty main dependencies
 clean http://ppa.launchpad.net/hugo-vanduijn/burp-latest/ubuntu
 clean http://deb.theforeman.org/
 clean http://apt.puppetlabs.com/
-`
+```
 
 Como se muestra en el ejemplo arriba, se pueden agregar repos externos y ppas para sincronizar local  y usar "offline" o en red con otras instalaciones.
 
@@ -67,13 +67,13 @@ Como se muestra en el ejemplo arriba, se pueden agregar repos externos y ppas pa
 
 Esta tarea es estándard, solo se descomenta la línea de cron para tener sincronización diaria: 
 
-`
+```shell
 nagiosadmin@l240lnx03:~$ cat /etc/cron.d/apt-mirror
 #
 # Regular cron jobs for the apt-mirror package
 #
 0 4     * * *   apt-mirror      /usr/bin/apt-mirror > /var/spool/apt-mirror/var/cron.log
-`
+```
 
 ## Preparados links simbólicos en servidor web nginx para poder usar los mirrors en otros servidores: 
 
