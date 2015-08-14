@@ -120,6 +120,8 @@ sudo mv /etc/apt/sources.list /etc/apt/sources.list.old
 
 Ejemplo indicando que se use solo arquitectura de 64 bit: 
 
+Más información en: https://wiki.debian.org/Multiarch/HOWTO
+
 ```shell
 /etc/apt/sources.list
 #
