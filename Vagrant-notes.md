@@ -12,15 +12,6 @@ It will be used later for your systems, I see it like a template for new vms.
 
 You can check for more on [vagrant hashicorp catalog](https://atlas.hashicorp.com/boxes/search)
 
-Setup your [default provider](https://www.vagrantup.com/docs/providers/default.html)
---------------------------
-
-Setting up virtualbox on your example:
-
-    export VAGRANT_DEFAULT_PROVIDER=virtualbox
-
-Add it to your ~/.bashrc file if you want it permanent
-
 
 Create a new folder to start a vm
 ---------------------------------
@@ -37,6 +28,10 @@ Edit the Vagrantfile and put the name of the box you are going to use like:
 
     config.vm.box = "centos/7"
 
+Or use directly to box desired:
+
+    vagrant init centos/7
+
 Start your vm
 -------------
  
@@ -49,6 +44,34 @@ Now access it:
 For More setting follow up: 
 
 https://www.vagrantup.com/docs/vagrantfile/
+
+Start with virtualbox
+====================
+
+Add virtualbox provider (used for this test)
+-------------------------------------------
+
+    sudo dnf install VirtualBox dkms kernel-devel
+
+[Build kernel modules](https://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/)
+
+    ## Fedora 23/22/21/20/19 and CentOS/RHEL 7 ##
+    /usr/lib/virtualbox/vboxdrv.sh setup
+
+
+Setup your [default provider](https://www.vagrantup.com/docs/providers/default.html)
+--------------------------
+
+Setting up virtualbox on your example:
+
+    export VAGRANT_DEFAULT_PROVIDER=virtualbox
+
+Add it to your ~/.bashrc file if you want it permanent
+
+Use it
+-----
+
+Follow up same steps as [Start](#Start)
 
     
 
