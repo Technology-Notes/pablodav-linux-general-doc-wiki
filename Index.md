@@ -27,3 +27,9 @@ It will help to import csv file to nagios config, like your inventory to nagios:
 # Personal projects
 ### Netinstall ubuntu
 [netinstall-ubuntu] (netinstall-ubuntu)
+
+Virtualization
+############# 
+
+Vagrant
+====== 

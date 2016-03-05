@@ -73,6 +73,35 @@ Use it
 
 Follow up same steps as [Start](#Start)
 
+Convert boxes between providers
+===============================
+
+References: 
+
+https://github.com/sciurus/vagrant-mutate 
+http://www.lucainvernizzi.net/blog/2014/12/03/vagrant-and-libvirt-kvm-qemu-setting-up-boxes-the-easy-way/
+
+Convert to libvirt
+------------------
+
+## Dependencies 
+
+### Fedora 23 
+
+    sudo dnf install qemu-img libvirt-devel ruby-devel
+    gem install ruby-libvirt
+    
+# Install 
+
+    vagrant plugin install vagrant-mutate
+    
+Usage
+-----
+
+Follow up usage page: https://github.com/sciurus/vagrant-mutate#usage
+
+
+
     
 
 
