@@ -12,6 +12,28 @@ It will be used later for your systems, I see it like a template for new vms.
 
 You can check for more on [vagrant hashicorp catalog](https://atlas.hashicorp.com/boxes/search)
 
+Use http_proxy
+-------------
+
+### Linux: 
+
+    export http_proxy='http://user:pass@server:port'
+    export https_proxy='http://user:pass@server:port'
+
+### Windows: 
+
+##### CMD
+
+    set http_proxy=http://user:pass@server:port
+    set https_proxy=http://user:pass@server:port
+
+##### Powershell (not tested)
+
+    $http_proxy='http://user:pass@server:port'
+    $https_proxy='http://user:pass@server:port'
+    
+---
+
 
 Create a new folder to start a vm
 ---------------------------------
@@ -22,15 +44,20 @@ Create a new folder to start a vm
 Now initialize as [vagrant project](https://www.vagrantup.com/docs/getting-started/project_setup.html)
 ----------------------------------
 
+### Use directly to box desired:
+
+    vagrant init centos/7
+
+### Init the vm on the folder without defining a box
+    
     vagrant init
 
 Edit the Vagrantfile and put the name of the box you are going to use like: 
 
     config.vm.box = "centos/7"
 
-Or use directly to box desired:
-
-    vagrant init centos/7
+### Or just copy an existing folder with Vagrantfile and rename the folder. 
+    
 
 Start your vm
 -------------
@@ -45,11 +72,19 @@ For More setting follow up:
 
 https://www.vagrantup.com/docs/vagrantfile/
 
+---
+
+
 Start with virtualbox
 ====================
 
+    vagrant up --provider=virtualbox
+    
+
 Add virtualbox provider (used for this test)
 -------------------------------------------
+
+### Fedora 23 
 
     sudo dnf install VirtualBox dkms kernel-devel
 
@@ -57,6 +92,12 @@ Add virtualbox provider (used for this test)
 
     ## Fedora 23/22/21/20/19 and CentOS/RHEL 7 ##
     /usr/lib/virtualbox/vboxdrv.sh setup
+
+### Windows
+ 
+* Install VirtualBox
+
+---
 
 
 Setup your [default provider](https://www.vagrantup.com/docs/providers/default.html)
@@ -72,6 +113,9 @@ Use it
 -----
 
 Follow up same steps as [Start](#Start)
+
+---
+
 
 Convert boxes between providers
 ===============================
