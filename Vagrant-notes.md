@@ -145,6 +145,10 @@ Usage
 Follow up usage page: https://github.com/sciurus/vagrant-mutate#usage
 
 
+Vagrant inside vmware
+=====================
+
+Notes: [Virtualbox inside vmware](Virtualbox-inside-vmware)
 
     
 
