@@ -6,7 +6,9 @@ You must add:
 
 To you .vmx config file of vmware. 
 
-The easiest way is: 
+If you have ssh access, it's fine to access through it and edit. 
+
+But if you don't have ssh access, do it:
 
 * Got to your vmware Configuration
 * Got to Datastore and browse it to the VM folder. 
