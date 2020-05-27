@@ -24,7 +24,7 @@ Luego copiar el contenido a /etc/nagios3/conf.d/ con el nombre adecuado.
 Uso de pynag para manipular la configuración de forma automática (actualizar, remover, agregar, etc). 
 
 Repositorio con script: 
-`git clone https://github.com/pablodav/linux-scripts.git `
+`git clone --depth 1 https://github.com/pablodav/linux-scripts.git `
 
 Script:
 https://github.com/pablodav/linux-scripts/tree/master/scripts/nagios_import 
